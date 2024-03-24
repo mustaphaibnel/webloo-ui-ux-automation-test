@@ -45,7 +45,7 @@ test('Test Sign-Up Flow', async ({ page }) => {
   //await page.waitForSelector('#root > div > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > .css-175oi2r');
 
   // Define your CSS selector.
-  //const cssSelector = '#root > div > div > div > div.css-175oi2r.r-1awozwy.r-6koalj.r-1t2qqvi.r-1pi2tsx.r-1777fci > div.css-175oi2r > div.css-175oi2r.r-1awozwy.r-6koalj.r-18u37iz.r-1h0z5md > div.css-175oi2r.r-1loqt21.r-1otgn73';
+  const cssSelector = '#root > div > div > div > div.css-175oi2r.r-1awozwy.r-6koalj.r-1t2qqvi.r-1pi2tsx.r-1777fci > div.css-175oi2r > div.css-175oi2r.r-1awozwy.r-6koalj.r-18u37iz.r-1h0z5md > div.css-175oi2r.r-1loqt21.r-1otgn73';
 
   // Step 2 and 3: Find the element and click it.
   await page.click(cssSelector);
