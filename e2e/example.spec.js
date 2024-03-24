@@ -1,7 +1,7 @@
 // @ts-nocheck
 const { test, expect, devices } = require('@playwright/test');
 
-test('test', async ({ page }) => {
+test('Test Sign-Up Flow', async ({ page }) => {
   // Start video recording
 
   // Navigate to the initial page
