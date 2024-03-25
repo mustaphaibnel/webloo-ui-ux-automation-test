@@ -20,7 +20,7 @@ module.exports = defineConfig({
     // Configure video recording to be on for every test
     video: {
       mode: 'on', // Record video for each test
-      size: { width: 640, height: 480 },
+      size: { width: 1280, height: 720 },
     },
 
     // Automatically take a screenshot on test failure
